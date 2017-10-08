@@ -1,0 +1,9 @@
+echo ===============
+echo SET OWNER START
+echo ===============
+
+sudo chown -R ec2-user /var/www/fc-sample-project-a/
+
+echo ================
+echo SET OWNER FINISH
+echo ================
