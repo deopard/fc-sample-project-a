@@ -5,6 +5,8 @@ echo =============
 whoami
 pwd
 echo $PATH
+source /home/ec2-user/.bash_profile
+echo $PATH
 
 cd /var/www/fc-sample-project-a
 /home/ec2-user/.nvm/versions/node/v6.11.3/bin/npm install
