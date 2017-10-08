@@ -3,7 +3,7 @@ echo INSTALL START
 echo =============
 
 cd /var/www/fc-sample-project-a
-npm install
+~/.nvm/versions/node/v6.11.3/bin/npm install
 
 echo ==============
 echo INSTALL FINISH
