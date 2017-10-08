@@ -4,9 +4,10 @@ echo =============
 
 whoami
 pwd
+echo $PATH
 
 cd /var/www/fc-sample-project-a
-~/.nvm/versions/node/v6.11.3/bin/npm install
+ /home/ec2-user/.nvm/versions/node/v6.11.3/lib/node_modules/npm install
 
 echo ==============
 echo INSTALL FINISH
