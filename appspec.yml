@@ -4,6 +4,10 @@ files:
   - source: /
     destination: /var/www/fc-sample-project-a
 hooks:
+  BeforeInstall:
+    - location: scripts/set_path
+      timeout: 5
+      runas: ec2-user
   AfterInstall:
     - location: scripts/install_dependencies
       timeout: 120 
