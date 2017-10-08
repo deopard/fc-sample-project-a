@@ -2,8 +2,12 @@ echo =============
 echo INSTALL START
 echo =============
 
+whoami
+pwd
+echo $PATH
+
 cd /var/www/fc-sample-project-a
-npm install
+/home/ec2-user/.nvm/versions/node/v6.11.3/bin/npm install
 
 echo ==============
 echo INSTALL FINISH
