@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/fc-sample-project-a
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/set_owner
       timeout: 5
       runas: root
