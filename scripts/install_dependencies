@@ -1,0 +1,10 @@
+echo =============
+echo INSTALL START
+echo =============
+
+cd /var/www/fc-sample-project-a
+npm install
+
+echo ==============
+echo INSTALL FINISH
+echo ==============

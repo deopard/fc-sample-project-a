@@ -1,0 +1,9 @@
+echo ==============
+echo SERVER RESTART
+echo ==============
+
+sudo service nginx restart
+
+echo =======================
+echo SERVER RESTERT FINISHED
+echo =======================
